@@ -1,0 +1,10 @@
+t=input()
+count=0
+for i in range(t):
+    s=raw_input()
+    friend=("ch","he","ef")
+    for j in friend:
+        if j in s:
+            count+=1 
+            break
+print count 
