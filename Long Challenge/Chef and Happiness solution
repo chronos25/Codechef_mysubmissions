@@ -1,0 +1,40 @@
+#include<bits/stdc++.h>
+//#include<conio.h>
+#define l long long int
+using namespace std;
+main()
+{
+	l t;
+	cin>>t;
+	while(t--)
+	{
+		l n;
+		cin>>n;
+		l a[n],c=0;
+		for(l i=0;i<n;i++)
+		{
+			cin>>a[i];
+		}
+		/*for(int i=0;i<n;i++)
+		{cout<<i<<" "<<a[i]<<" "<<a[a[i]]<<endl;}*/
+		for(l i=0;i<n;i++)
+		{
+			for(l j=0;j<n;j++)
+			{
+				if((a[i]!=a[j])&&(a[a[i]-1]==a[a[j]-1]))
+				{
+					//cout<<a[i]<<a[a[i]-1]<<a[a[j]-1]<<endl;
+					c+=1;
+				}
+			}
+		}
+		if(c!=0)
+		{
+		cout<<"Truly Happy\n";
+		}
+		else
+		{
+		cout<<"Poor Chef\n";
+		}
+  }
+}
