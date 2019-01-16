@@ -1,0 +1,16 @@
+t=input()
+while t:
+    str=raw_input()
+    str2='not'
+    count=0
+    a=str.split(' ')
+    for i in range(0,len(a)):
+        if(str2==a[i]):
+            count+=1
+    if count:
+        print 'Real Fancy'
+    else:
+        print 'regularly fancy' 
+    t=t-1
+    
+    
