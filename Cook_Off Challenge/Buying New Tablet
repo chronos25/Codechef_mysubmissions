@@ -39,7 +39,12 @@ Example case 2: Chef's budget is 6, but all tablets have higher prices, so Chef 
 
 Example case 3: The price of the only tablet is exactly equal to Chef's budget, so he is able to buy it.
 
-##SOLUTIONS
+
+
+
+SOLUTIONS
+
+
 
 #include<bits/stdc++.h>
 //#include<conio.h>
