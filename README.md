@@ -1,11 +1,12 @@
 # Codechef_mysubmissions
 
 All the solutions of problems that i had solved on all Codechef Contests that organise once in each month;
+
 -> LONG CONTEST
 -> COOKOOF CONTEST 
 -> LUNCHTIME CONTEST
 
-# CODECHEF
+# ABOUT CODECHEF
 
 CodeChef - A Platform for Aspiring Programmers
 https://www.codechef.com/
